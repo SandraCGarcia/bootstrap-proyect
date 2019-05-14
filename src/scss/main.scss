@@ -1,20 +1,84 @@
-/*Estilos bloque bienvenidos*/
-.bienvenidos{
-    background-image: url("../../images/fondo-bienvenidos.jpg");
-    background-size: cover;
-    height: 100vh;
+html{
+    font-size: 15px;
 }
 
-.encabezado{
-    background-color: rgba(0, 0, 0, 0.28);
+/*Estilos bloque bienvenidos*/
+
+.bienvenidos{
+    background-image: url("../img/fondo-bienvenidos.jpg");
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fixed-top{
+    background-color: rgba(0, 0, 0, 0.60);
 }
 
 .navbar-light .navbar-brand {
     color: rgb(253, 253, 253);
-    font-style: 1.3rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
 }
 
-.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgba(255, 255, 255, 0.98);
+    
+}
+
+.navbar-toggler{
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.navbar-toggler-icon {
+    width: 1.2em;
+    height: 1.2em;
+    border: 0px;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    background-color: #F05F40;
     color: rgb(255, 255, 255);
 }
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    background-color: #F05F40;
+    color: rgb(255, 255, 255);
+}
+
+.texto-bienvenido{
+    color: #fff;
+    margin-top: 6rem;
+}
+
+.btn-primary{
+    background-color: #F05F40;
+    border-color: #b93e24;
+    transition: all .5s ease;
+}
+
+.btn-primary:hover{
+    background-color: #F17f66;
+    border-color: #F05F40;
+}
+
+/*Estilos bloque Quienes somos*/
+
+/*Estilos bloque Servicios*/
+
+/*Estilos Ultimos proyectos*/
+
+/**Estilos bloque Pie de pagina*/
+
+/*medias querys*/
