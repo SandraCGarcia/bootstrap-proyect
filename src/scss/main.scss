@@ -1,7 +1,7 @@
 @import "./core/variables";
 
 html{
-    font-size: 15px;
+    font-size: 16px;
 }
 
 /*Estilos bloque bienvenidos*/
@@ -11,6 +11,10 @@ html{
     background-size: cover;
     height: 100vh;
     overflow: hidden;
+}
+
+.display-4 {
+    font-size: 3rem;
 }
 
 .fixed-top{
@@ -93,10 +97,43 @@ html{
     clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
 }
 
-/*Estilos bloque Servicios*/
+/*Estilos bloque aptitudes*/
+
+.fas{
+    color: $violet;
+    font-size: 6rem;
+}
+
+.aptitudes h3{
+    font-weight: bold;
+}
+
 
 /*Estilos Ultimos proyectos*/
 
+.proyectos{
+    background-color: $gray;
+    color: $blanco;
+}
+
+.proyectos a{
+    display: block;
+    overflow: hidden;
+}
+
+.proyectos img{
+    min-width: 100%;
+}
+
+.proyectos a:hover img{
+    transform: scale(1.5);
+    transition: all .3s ease;
+}
+
 /**Estilos bloque Pie de pagina*/
 
+.footer{
+    background-color: $grayDark;
+    color: $blanco;
+}
 /*medias querys*/
